@@ -6,11 +6,7 @@ let items = [
   {id: 5,nombre: "Estante 60x20cm ",precio: 15000},
   {id: 6,nombre: "Escritorio Vidrio 90x60",precio: 70000},
 ];
-
-
-console.log("si")
 mostrarMenu()
-
 
 function mostrarMenu(){
   let opc
@@ -26,7 +22,7 @@ function mostrarMenu(){
   console.log("5- Salir")
   opc = ingresarEntero("Ingrese una opcion del 1 al 5 del menu (El menu esta en consola)",1,5)
   salir = generarAccion(opc, items)
-  }while (!salir); // while (opc !== 5);
+  }while (!salir); 
 }
 
 function mostrarCatalogo(){
