@@ -1,0 +1,25 @@
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: fit-content;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 800px) {
+  .navbar {
+    justify-content: space-around;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+  }
+}
+/* 
+@import ".";
+@import ".";
+@import ".";
+@import ".";
+@import ".";
+ */
+
+/*# sourceMappingURL=styles.css.map */
